@@ -1,4 +1,14 @@
 {
+  "protocol_handlers": [
+    {
+      "protocol": "magnet",
+      "url": "/?action=add-urls&url=%s"
+    }
+  ],
+  "launch_handler": {
+    "route_to": "existing-client",
+    "navigate_existing_client": "always"
+  },
   "icons": [
     {
       "src": "icon_maskable.png",
